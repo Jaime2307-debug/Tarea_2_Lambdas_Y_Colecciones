@@ -96,8 +96,8 @@ public class Main {
         inventario.put("Laptop", 12500.99);
         inventario.put("Mouse", 249.50);
         inventario.put("Teclado", 899.75);
-        inventario.put("Monitor", 3499.80);
-        inventario.put("Audifonos", 1299.45);
+        inventario.put("Monitor", null);
+        inventario.put("Audifonos", null);
         System.out.println("6. Catálogo con descuento (10%):");
         UtileriaNumeros.modificadorDeInventario(inventario);
 

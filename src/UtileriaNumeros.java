@@ -18,7 +18,11 @@ public class UtileriaNumeros {
     public static void modificadorDeInventario(HashMap<String,Double> inventario){
         inventario.forEach((String producto, Double precio)->{
             System.out.println("Producto: " + producto);
-            System.out.println("Precio: " + precio*0.90);
+            if(precio==null) {
+                System.out.println("Precio: " + "null");
+            }else{
+                System.out.println("Precio: " + precio*0.90);
+            }
         });
     }
 }
