@@ -1,4 +1,4 @@
-# 📦 Tarea de Colecciones, Lambdas
+# 📦 Proyecto de Colecciones, Lambdas
 
 Este proyecto demuestra el uso de la API de **Streams**, expresiones **Lambda** y el manejo avanzado de colecciones (`ArrayList`, `HashMap`, `HashSet`) en Java para el procesamiento de datos.
 
@@ -29,11 +29,12 @@ El objetivo de este proyecto es implementar una serie de métodos estáticos que
     ```
     javac Main.java
     ```
+    o desde el propio Intellij IDEA.
 3.  **Ejecutar** el programa:
     ```
     java Main
     ```
-
+    o en Intellij IDEA con **Run**.
 ## 📄 Ejemplo de Salida
 ```text
 === PRUEBAS DE MÉTODOS DE COLECCIONES ===
