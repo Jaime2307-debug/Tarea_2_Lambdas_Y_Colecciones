@@ -1,5 +1,7 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.stream.Collectors;
 
 public class UtileriaLetras {
@@ -36,5 +38,22 @@ public class UtileriaLetras {
         ArrayList<String> palabrasNoDescartadas = new ArrayList<>();
         palabrasNoDescartadas= (ArrayList<String>) mapaDeFrecuencias.entrySet().stream().filter(repetidas -> repetidas.getValue()<filtro).map(repetidas-> repetidas.getKey()).collect(Collectors.toList());
         return palabrasNoDescartadas;
+    }
+    public static HashSet<String> deDuplicacionDePalabras(String frase,Integer filtro){
+        String[] palabras = frase.split("[\\s,;.:]+");
+        HashSet<String> palabrasFiltradas = new HashSet<>();
+        Arrays.stream(palabras).filter(palabra->palabra.length()<filtro).forEach(palabra ->{
+            palabrasFiltradas.add(palabra.toLowerCase());
+        });
+        return palabrasFiltradas;
+    }
+    public static void topeDeFrecuencias(HashMap<String,Integer> mapaDeFrecuencias,Integer tope){
+        mapaDeFrecuencias.replaceAll((palabra,frecuencia)->{
+            if(frecuencia>tope){
+                return tope;
+            }else{
+                return frecuencia;
+            }
+        });
     }
 }
