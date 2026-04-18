@@ -5,7 +5,7 @@ Este proyecto demuestra el uso de la API de **Streams**, expresiones **Lambda** 
 ##  Descripción
 El objetivo de este proyecto es implementar una serie de métodos estáticos que resuelven problemas comunes de manipulación de datos, aplicando un enfoque funcional y declarativo. Se cubren tareas de filtrado, transformación, cálculo de frecuencias y eliminación de duplicados.
 
-## 🛠️ Métodos Implementados
+## Métodos Implementados
 
 1.  **`multiplicador`**: Utiliza `replaceAll` con una lambda para multiplicar cada `Integer` de una lista por un factor dado.
 2.  **`filtroSelectivo`**: Filtra un `ArrayList<String>` eliminando cadenas que inician con una letra específica o tienen una longitud menor a N.
@@ -18,7 +18,7 @@ El objetivo de este proyecto es implementar una serie de métodos estáticos que
 9.  **`deDuplicacionDePalabras`**: Procesa una frase, la divide por delimitadores complejos y guarda palabras cortas únicas en minúsculas.
 10. **`topeDeFrecuencias`**: Genera una lista inicial de palabras para estandarizar las pruebas del sistema.
 
-## 💻 Instrucciones de Compilación y Ejecución
+## Compilación y Ejecución
 
 ### Requisitos
 * Tener instalado el **JDK 16** o superior (`Esto ya que desde el 16 hay metodos que se actualizaron mucho`).
@@ -35,7 +35,7 @@ El objetivo de este proyecto es implementar una serie de métodos estáticos que
     java Main
     ```
     o en Intellij IDEA con **Run**.
-## 📄 Ejemplo de Salida
+## Ejemplo de Salida
 ```text
 === PRUEBAS DE MÉTODOS DE COLECCIONES ===
 
