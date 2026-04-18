@@ -3,7 +3,7 @@
 Este proyecto demuestra el uso de la API de **Streams**, expresiones **Lambda** y el manejo avanzado de colecciones (`ArrayList`, `HashMap`, `HashSet`) en Java para el procesamiento de datos.
 
 ##  Descripción
-El objetivo de este proyecto es implementar una serie de métodos estáticos que resuelven problemas comunes de manipulación de datos, aplicando un enfoque funcional y declarativo. Se cubren tareas de filtrado, transformación, cálculo de frecuencias y eliminación de duplicados.
+El objetivo de este proyecto es implementar una serie de métodos estáticos que resuelven problemas comunes de manipulación de datos, aplicando un enfoque funcional y declarativo y tambien se cubren tareas de filtrado, transformación, cálculo de frecuencias y eliminación de duplicados.
 
 ## Métodos Implementados
 
