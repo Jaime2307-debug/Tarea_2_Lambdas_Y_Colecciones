@@ -7,21 +7,21 @@ El objetivo de este proyecto es implementar una serie de métodos estáticos que
 
 ## Métodos Implementados
 
-1.  **`multiplicador`**: Utiliza `replaceAll` con una lambda para multiplicar cada `Integer` de una lista por un factor dado.
-2.  **`filtroSelectivo`**: Filtra un `ArrayList<String>` eliminando cadenas que inician con una letra específica o tienen una longitud menor a N.
-3.  **`convertirAMayusculas`**: Transforma una lista a mayúsculas usando `stream()`, `map()` y `forEach()`.
-4.  **`cuadradosDeParesUnicos`**: Procesa una lista de números para obtener un `HashSet` con los cuadrados de los números pares.
-5.  **`mapaDeLongitudes`**: Convierte una lista de palabras en un `HashMap` donde la clave es la palabra y el valor es su longitud.
-6.  **`modificadorDeInventario`**: Recorre un mapa de precios y muestra en consola el catálogo aplicando un descuento del 10%.
-7.  **`contadorDeFrecuencias`**: Utiliza el método `merge()` para construir un mapa que cuenta las apariciones de cada palabra.
-8.  **`descarteDePalabras`**: Filtra un mapa de frecuencias para extraer en una lista solo las palabras con frecuencia inferior a un valor dado.
-9.  **`deDuplicacionDePalabras`**: Procesa una frase, la divide por delimitadores complejos y guarda palabras cortas únicas en minúsculas.
-10. **`topeDeFrecuencias`**: Genera una lista inicial de palabras para estandarizar las pruebas del sistema.
+1.  **multiplicador**: Utiliza `replaceAll` con una lambda para multiplicar cada `Integer` de una lista por un factor dado.
+2.  **filtroSelectivo**: Filtra un `ArrayList<String>` eliminando cadenas que inician con una letra específica o tienen una longitud menor a N.
+3.  **convertirAMayusculas**: Transforma una lista a mayúsculas usando `stream()`, `map()` y `forEach()`.
+4.  **cuadradosDeParesUnicos**: Procesa una lista de números para obtener un `HashSet` con los cuadrados de los números pares.
+5.  **mapaDeLongitudes**: Convierte una lista de palabras en un `HashMap` donde la clave es la palabra y el valor es su longitud.
+6.  **modificadorDeInventario**: Recorre un mapa de precios y muestra en consola el catálogo aplicando un descuento del 10%.
+7.  **contadorDeFrecuencias**: Utiliza el método `merge()` para construir un mapa que cuenta las apariciones de cada palabra.
+8.  **descarteDePalabras**: Filtra un mapa de frecuencias para extraer en una lista solo las palabras con frecuencia inferior a un valor dado.
+9.  **deDuplicacionDePalabras**: Procesa una frase, la divide por delimitadores complejos y guarda palabras cortas únicas en minúsculas.
+10. **topeDeFrecuencias**: Genera una lista inicial de palabras para estandarizar las pruebas del sistema.
 
 ## Compilación y Ejecución
 
 ### Requisitos
-* Tener instalado el **JDK 16** o superior (`Esto ya que desde el 16 hay metodos que se actualizaron mucho`).
+* Tener instalado el **JDK 16** o superior para poder compilar el archivo (`Esto ya que desde el 16 hay metodos que se actualizaron mucho`).
 
 ### Pasos
 1.  **Clonar o descargar** la carpeta **src**.
